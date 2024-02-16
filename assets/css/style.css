@@ -246,3 +246,16 @@ footer{
     
 }
 
+/*about-page*/
+#hero-about{
+    background: url(../images/BJJ-Brown-Belt\ _600.jpeg) no-repeat center center/cover;
+    max-height: 400px;
+    width: 100%;
+}
+#roadhouse-about{
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+/* styling for the hero section of the about page*/
