@@ -457,3 +457,88 @@ footer{
     }
 
 }
+
+@media screen and (min-width: 900px) {
+
+    #cover-text {
+        /* Final rgba value sets the opacity so it is semi-transparent */
+        background-color: rgba(206,187,154, 0.8);
+        position: relative;
+        top: 260%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        max-width:300px;
+        height:100px;
+        text-align: center;
+        padding-top: 30px; 
+        border: 2px solid  black;
+        order:2;
+        font-size: 120%;
+        
+    }
+
+    #sign-up{
+        background-color: rgba(206,187,154, 0.8);/*rgba(58, 0, 30, 0.6);*/
+        font-size: 120%;
+        position: relative ;
+        top: 220%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width:300px;
+        min-height: 60px;
+        margin-top:20px;
+        padding: 20px; 
+        text-align: center;
+        border: 2px solid  black;
+        order:1;
+    
+    }
+    .hero{
+        background: url(../images/bjj_training_900px.jpg) no-repeat center top/cover;
+        height: 700px;
+        position:relative;
+    }
+    #roadhouse-about{
+        text-align: center;
+        padding-left: 10px;
+    }
+    
+    #coach-photo{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    #coach-photo > img{
+        height:220px;
+        width:220px;
+        border-radius: 50%;
+        margin-left:5px;
+        margin-right:5px;
+        border: 2px solid black;
+       }
+    #class-photo, #gym-photo{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+    #class-photo > img{
+        max-width: 300px;
+        max-height: 390px;
+        border-radius: 33%;
+        margin-top: 10px;
+        border: 2px solid black;
+       
+    }
+    #gym-photo > img{
+        max-width: 400px;
+        max-height: 620px;
+        margin-top:10px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+    }
+    
+   
+}
