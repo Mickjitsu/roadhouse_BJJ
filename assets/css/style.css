@@ -350,12 +350,12 @@ footer{
 }
 .reviews-container {
     display: flex;
-    flex-wrap: wrap; /*allowing for a new review to be shown as the media query gets larger*/
+    flex-wrap: wrap; /*flex styles for reviews section - more info on below media query*/
     justify-content: space-between;
   }
 
   .review {
-    flex: 0 1 calc(33.33% - 10px); /*allowing for a new review to be shown as the media query gets larger*/
+    flex: 0 1 calc(33.33% - 10px); /*flex styles for reviews section - more info on below media query*/
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -375,4 +375,24 @@ footer{
     margin-top: 20px;
 }
 
-/* styling for the reviews section at bottom of the about page added*/
+/* styling for the reviews section at bottom of the about page added */
+
+/*media query for review section flex stylings*/
+@media screen and (max-width: 789px) {
+    .review {
+      flex: 0 1 calc(50% - 10px); /* 2 reviews per row for screens below 790px */
+    }
+    .review:nth-child(n+3) {
+      display: none; /* this hides reviews starting from the 3rd one */
+    }
+  }
+
+  @media screen and (max-width: 559px) {
+    .review {
+      flex: 0 1 100%; /* 1 review per row for screens below 560px */
+    }
+    .review:nth-child(n+2) {
+      display: none; /* Hide reviews starting from the 2nd one */
+    }
+  }
+
