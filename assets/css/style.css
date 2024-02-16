@@ -259,3 +259,46 @@ footer{
 
 
 /* styling for the hero section of the about page*/
+
+#coach-photo{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+#coach-photo > img{
+    height:110px;
+    width:110px;
+    border-radius: 50%; /*makes the images circular*/
+    margin-left:5px;
+    margin-right:5px;
+    border: 2px solid black;
+    margin-top:15px;
+   }
+#class-photo, #gym-photo{
+    width:100%;
+    display:flex;
+    justify-content: center; /*centers image to the middle of the div*/
+}
+#class-photo > img{
+    max-width: 200px;
+    max-height: 260px;
+    border-radius: 33%; /*adds some slight curvature to the image*/
+    margin-top: 15px;
+    border: 2px solid black;
+   
+}
+#gym-photo > img{
+    width: 90%;
+    height: 70%;
+    max-width: 250px;
+    max-height: 200px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+/*styling for photos on the about us page added
