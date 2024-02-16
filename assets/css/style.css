@@ -224,3 +224,25 @@ body{
 
 /*stylings above to allow for the #why-train div to have all the divs below it
 grouped together and neatly coordinated in the middle of the screen*/
+
+
+/*footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+footer{
+    background-color: #726247;
+    
+}
+
