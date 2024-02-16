@@ -153,3 +153,74 @@ with the colour set to 0.8 for some transparency*/
 with the colour set to 0.8 for some transparency*/
     
 }
+
+#cover-text h2 {
+    color: black;
+}
+
+
+#sign-up h3{
+    color: black;
+}
+
+body{
+    background-color: #BEA477;
+}
+.welcome{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    min-height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    /*styling to centre welcome section in middle of the page*/
+}
+
+.roadhouse{
+    text-align: center;
+    padding-top:20px;
+    font-size:150%;
+}
+.roadhouse > h1{
+    font-size : 200%;
+}
+#location{
+    text-align: center;
+    padding-top:30px;  
+}
+
+#location>iframe{
+    width:100%;
+    height:220px;
+}
+/*location sections for making the iframe map the full width of the pge*/
+ #why-train{
+   width: 80%;
+   padding:20px;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+#why-train{
+    font-size:120%;;
+}
+#why-train h2{
+    color: black;
+}
+#no-strings, #mental-benefits, #physical-benefits, #why-train-header{
+    text-align: center;
+    border: 2px solid black;
+    background-color:rgba(206,187,154, 0.8);
+    color: black;
+}
+
+#mental-benefits, #physical-benefits{
+    top: 100%;
+    border-top:0px
+}
+#no-strings{
+    border-top: 0px;
+}
+
+/*stylings above to allow for the #why-train div to have all the divs below it
+grouped together and neatly coordinated in the middle of the screen*/
