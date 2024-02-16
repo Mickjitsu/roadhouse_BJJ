@@ -30,3 +30,50 @@ h3 {
     display:none;
 }
 
+/*header*/ 
+
+header {
+    background-color: #BEA477;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /*code above allowing for the header background colour to be added with flex display
+    , z index and box shadow. Fixed position allows it to always be visible on page*/
+}
+
+header a{
+    text-decoration:none;
+    color:inherit;
+    font-size: 100%;
+    padding-top: 3px;
+}
+
+.menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+
+.menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+main{
+    flex: 1 0 auto; /*makes main element take up any surplus space to push footer down*/
+    
+}
+
+.logo{
+    font-size: 50px;
+    padding-top:5px;
+}
