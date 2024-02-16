@@ -116,3 +116,40 @@ nav {
     /*above styling allows the image to not stretch too much, with styling for text boxes 
     layered above the image*/
 }
+
+#sign-up{
+    background-color: rgba(206,187,154, 0.8);
+    font-size: 120%;
+    position: relative ;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width:300px;
+    min-height: 60px;
+    margin-top:20px;
+    padding: 20px; 
+    text-align: center;
+    border: 2px solid  black;
+    order:1;
+/*styling above to position the text boxes over the hero image so they are in a flex column centred in the middle
+with the colour set to 0.8 for some transparency*/
+}
+
+#cover-text {
+    background-color: rgba(206,187,154, 0.8);
+    position: relative;
+    top: 225%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    max-width:300px;
+    height:100px;
+    text-align: center;
+    padding-top: 30px; 
+    border: 2px solid  black;
+    order:2;
+    font-size: 120%;
+    /*styling above to position the text boxes over the hero image so they are in a flex column centred in the middle
+with the colour set to 0.8 for some transparency*/
+    
+}
