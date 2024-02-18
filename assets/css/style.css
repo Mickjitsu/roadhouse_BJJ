@@ -335,7 +335,7 @@ footer{
     border-bottom: 2px solid black;
 }
 
-.page-header{
+#about-header{
     text-align: center;
     font-size: 100px;
 }
