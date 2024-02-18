@@ -602,6 +602,20 @@ footer{
             margin-bottom: 10px;
             border: 2px solid black;
         }
-        
-       
+
+        #hero-about{
+            background: url(../images/BJJ-Brown-Belt\ _1.jpg) no-repeat center center /cover;
+            max-height: 450px;
+            
+        }
     }
+
+    @media screen and (min-width: 1200px){
+        #hero-about{
+           
+            max-height: 550px;
+            
+        }
+    }
+    /*the two queries above allow for adjustment of image size on larger screens
+    in hero sections*/
