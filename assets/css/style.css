@@ -247,7 +247,7 @@ footer{
 
 /*about-page*/
 #hero-about{
-    background: url(../images/BJJ-Brown-Belt\ _600.jpeg) no-repeat center center/cover;
+    background: url(../images/BJJ-Brown-Belt\_600.jpeg) no-repeat center center/cover;
     max-height: 400px;
     width: 100%;
 }
@@ -418,13 +418,25 @@ footer{
     /*controls the standard width and height of the youtube video*/
 }
 
+
+
+
+/* MEDIA QUERIES*/
 @media screen and (max-width: 560px){
     .video > iframe{
         max-width: 100%;
         max-height: 100%;
     }
     /*this allows for the youtube video to display correctly on smaller screens*/
+    #gym-photo > img{
+        height:130%;
+        width: 120%;
+    }
+    /*adjust gym photo image on about page to be visible on smaller screens*/
 }
+
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -440,6 +452,8 @@ footer{
 
 
 
+
+
 @media screen and (max-width: 789px) {
     .review {
       flex: 0 1 calc(50% - 10px); /* specifying width of reviews per row for screens below 790px to allow for 2 images */
@@ -449,6 +463,8 @@ footer{
     }
   }
 
+
+
   @media screen and (max-width: 559px) {
     .review {
       flex: 0 1 100%; /* 1 review per row for screens below 560px */
@@ -457,6 +473,9 @@ footer{
       display: none; /* Hide reviews starting from the 2nd one */
     }
   }
+
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -604,7 +623,7 @@ footer{
         }
 
         #hero-about{
-            background: url(../images/BJJ-Brown-Belt\ _1.jpg) no-repeat center center /cover;
+            background: url(../images/BJJ-Brown-Belt_1.jpg) no-repeat center center /cover;
             max-height: 450px;
             
         }
