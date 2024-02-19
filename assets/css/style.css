@@ -247,7 +247,7 @@ footer{
 
 /*about-page*/
 #hero-about{
-    background: url(../images/BJJ-Brown-Belt\_600.jpeg) no-repeat center center/cover;
+    background: url(../images/BJJ-Brown-Belt_600.jpeg) no-repeat center center/cover;
     max-height: 400px;
     width: 100%;
 }
@@ -420,12 +420,35 @@ footer{
 
 
 
+/*CONTACT FORM PAGE*/
 
-/* MEDIA QUERIES*/
-@media screen and (max-width: 560px){
+#contact{
+    display:flex;
+    flex-direction: column;
+    margin-top:100px;
+    text-align: center;
+}
+
+#contact > h1{
+    font-size: 300%;
+}
+
+
+/* MEDIA QUERIES*/ 
+
+@media screen and (max-width: 320px){
+    #contact{
+        margin-top: 100px;
+    }
+
+    /*allows for this section to be visible due to header size increase*/
+}
+
+
+@media screen and (min-width:385px) and (max-width: 576px){
     .video > iframe{
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 90%;
+        max-height: 90%;
     }
     /*this allows for the youtube video to display correctly on smaller screens*/
     #gym-photo > img{
@@ -433,8 +456,21 @@ footer{
         width: 120%;
     }
     /*adjust gym photo image on about page to be visible on smaller screens*/
-}
+    #coach-photo > img{
+        height:150px;
+        width:150px;
 
+    }
+}
+@media screen and (min-width:576px) and (max-width: 899px){
+    #gym-photo > img{
+        height:130%;
+        width: 120%;
+    }
+
+
+
+}
 
 
 /* Media query: large or landscape phones (576px and up) */
@@ -448,9 +484,15 @@ footer{
         max-width: 100%;
         max-height: 100%;
     }
+
+    #coach-photo > img{
+        height:180px;
+        width:180px;
+
+    }
+
+   
 }
-
-
 
 
 
@@ -463,8 +505,6 @@ footer{
     }
   }
 
-
-
   @media screen and (max-width: 559px) {
     .review {
       flex: 0 1 100%; /* 1 review per row for screens below 560px */
@@ -472,10 +512,9 @@ footer{
     .review:nth-child(n+2) {
       display: none; /* Hide reviews starting from the 2nd one */
     }
+
+  
   }
-
-
-
 
 @media screen and (min-width: 768px) {
 
@@ -621,7 +660,7 @@ footer{
             margin-bottom: 10px;
             border: 2px solid black;
         }
-
+        
         #hero-about{
             background: url(../images/BJJ-Brown-Belt_1.jpg) no-repeat center center /cover;
             max-height: 450px;
@@ -636,5 +675,4 @@ footer{
             
         }
     }
-    /*the two queries above allow for adjustment of image size on larger screens
-    in hero sections*/
+      
