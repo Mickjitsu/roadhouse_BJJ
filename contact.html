@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <a href="index.html">
+        <h1 class="logo">Roadhouse BJJ</h1> </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        
+        <nav>
+            <ul class="menu">
+                <li> <a href="about.html">About</a></li>
+          
+                <li> <a href="index.html">Gallery</a></li>
+           
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <section id="contact">
+            <h1>CONTACT US</h1>
+         </section>
+
+         <section id="contact-form">
+
+            <form id="sign-up-form" method="POST" action="signedup.html">
+                <h2>Let's get Rolling! <i class="fa-solid fa-dumbbell"></i> </h2>
+                <h3>Contact Details</h3>
+                <br>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" class="text_input" required>
+                <br>
+                <br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" class="text_input" required>
+                <br>
+                <br>
+                <label for="email_address">Email Address:</label>
+                <input type="text" id="email_address" class="email" required>
+                <br>
+                <br>
+                <h3>Class choices</h3>
+                <br>
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="grappling">Grappling</label>
+                            <input type="radio" name="class_choice" id="grappling" checked>
+                        </div>
+                        <br>
+                            <div>
+                                <label for="striking">Striking</label>
+                                <input type="radio" name="class_choice" id="striking" checked>
+                            </div>
+                            <br>
+                            <div>
+                                <label for="strength">Strength & Conditioning</label>
+                                <input type="radio" name="class_choice" id="strength" checked>
+                            </div>
+                            <br>
+                            <div>
+                                <label for="all">All disciplines</label>
+                                <input type="radio" name="class_choice" id="all" checked>
+                            </div>
+                    </div>
+                    <button type="submit" class="join-button">Let's Roll!</button>
+            </form>
+        
+         </section>
+    </main>
+    <footer>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+            </ul>
+            </footer>
+            
+            <!-- Font Awesome kit -->
+            <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+            
+    </footer>
+  </body>
+</html>

@@ -433,19 +433,46 @@ footer{
     font-size: 300%;
 }
 
+#contact-form{
+    border: 2px solid black;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 150%;
+    background-color: rgba(206,187,154, 0.8);
+    text-align: center;
+}
 
+#contact-form > button{
+    font-size:160%;
+}
+
+
+/*Signed Up*/
+
+#signed_up{
+    margin-top: 250px;
+    text-align: center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid black;
+    background-color: rgba(206,187,154, 0.8);
+}
 /* MEDIA QUERIES*/ 
 
 @media screen and (max-width: 320px){
     #contact{
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     /*allows for this section to be visible due to header size increase*/
 }
 
 
-@media screen and (min-width:385px) and (max-width: 576px){
+@media screen and (max-width: 576px){
     .video > iframe{
         max-width: 90%;
         max-height: 90%;
