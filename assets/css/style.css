@@ -157,6 +157,13 @@ with the colour set to 0.8 for some transparency*/
     color: black;
 }
 
+#cover-text > a{
+    text-decoration: none; /* Removes underline */
+  }
+
+#cover-text > a:hover {
+    background-color:antiquewhite
+  }
 
 #sign-up h3{
     color: black;
@@ -260,7 +267,6 @@ footer{
 #coach-photo{
     width:100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
    
     
@@ -276,6 +282,7 @@ footer{
     margin-right:5px;
     border: 2px solid black;
     margin-top:15px;
+    display:flex;
    }
 #class-photo, #gym-photo{
     width:100%;
@@ -443,6 +450,7 @@ footer{
     font-size: 150%;
     background-color: rgba(206,187,154, 0.8);
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #contact-form > button{
@@ -460,8 +468,16 @@ footer{
     margin-right:auto;
     border: 2px solid black;
     background-color: rgba(206,187,154, 0.8);
+    
 }
 /* MEDIA QUERIES*/ 
+
+@media screen and (max-width: 380px){
+    #coach-photo > img{
+        max-width: 110px;
+        max-height: 110px;
+    }
+}
 
 @media screen and (max-width: 320px){
     #contact{
@@ -652,13 +668,14 @@ footer{
             padding-left: 10px;
         }
         
-        #coach-photo{
+        /*#coach-photo{
             width:100%;
             display: flex;
             justify-content: center;
             
             
         }
+        */
         #coach-photo > img{
             height:220px;
             width:220px;
