@@ -32,7 +32,7 @@ h3 {
 
 /*header*/
 header {
-    background-color: #BEA477;
+    background-color: #252525;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -75,17 +75,19 @@ main{
 .logo{
     font-size: 50px;
     padding-top:5px;
+    color: #BEA477;
 }
 /*nav*/
 nav {
     position: absolute;
-    background-color: #BEA477 ;
+    background-color: #252525 ;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    color:#BEA477;
 }
 
 /* Nav toggle */
@@ -135,10 +137,10 @@ with the colour set to 0.8 for some transparency*/
 }
 
 #cover-text {
-    background-color: rgba(206,187,154, 0.8);
+    background-color: #252525;
     position: relative;
     top: 225%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 200px;
     max-width:300px;
@@ -152,18 +154,20 @@ with the colour set to 0.8 for some transparency*/
 with the colour set to 0.8 for some transparency*/
     
 }
-
-#cover-text h2 {
-    color: black;
+#cover-header{
+    color: #BEA477;
+}
+.cover-text h3 {
+    color: #BEA477;
 }
 
 #cover-text > a{
     text-decoration: none; /* Removes underline */
   }
 
-#cover-text > a:hover {
+/*#cover-text > a:hover {
     background-color:antiquewhite
-  }
+  }*/
 
 #sign-up h3{
     color: black;
@@ -187,8 +191,16 @@ body{
     padding-top:20px;
     font-size:150%;
 }
-.roadhouse > h1{
-    font-size : 200%;
+.roadhouse h1{
+    font-size : 250%;
+}
+
+.roadhouse div{
+    padding: 15px;
+}
+
+.roadhouse p {
+    line-height: 30px;
 }
 #location{
     text-align: center;
@@ -218,6 +230,7 @@ body{
     border: 2px solid black;
     background-color:rgba(206,187,154, 0.8);
     color: black;
+    padding: 10px;
 }
 
 #mental-benefits, #physical-benefits{
@@ -243,12 +256,11 @@ grouped together and neatly coordinated in the middle of the screen*/
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #BEA477;
 }
 
 footer{
-    background-color: #726247;
-    
+    background-color: #252525;
 }
 
 
@@ -626,7 +638,6 @@ footer{
 
         #cover-text {
             /* Final rgba value sets the opacity so it is semi-transparent */
-            background-color: rgba(206,187,154, 0.8);
             position: relative;
             top: 260%;
             left:50%;
@@ -720,3 +731,4 @@ footer{
         }
     }
       
+ 
