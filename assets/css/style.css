@@ -45,7 +45,7 @@ header {
     , z index and box shadow. Fixed position allows it to always be visible on page*/
 }
 
-header a{
+header a, main a{
     text-decoration:none;
     color:inherit;
     font-size: 100%;
