@@ -45,13 +45,17 @@ header {
     , z index and box shadow. Fixed position allows it to always be visible on page*/
 }
 
-header a, main a{
+header a{
     text-decoration:none;
     color:inherit;
     font-size: 100%;
     padding-top: 3px;
 }
 
+main > a{
+    text-decoration: none;
+
+}
 .menu {
     font-size: 110%;
     letter-spacing: 4px;
