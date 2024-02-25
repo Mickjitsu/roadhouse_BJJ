@@ -105,7 +105,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #BEA477;
+    color:#BEA477;
 }
 
 
@@ -441,6 +441,10 @@ footer{
     height: 315px;
     /*controls the standard width and height of the youtube video*/
 }
+
+.videoFrame {
+    border: 2px solid #000; /* Example: 2px solid black border */
+  }
 
 
 
