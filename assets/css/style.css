@@ -77,6 +77,10 @@ main{
     padding-top:5px;
     color: #BEA477;
 }
+
+#index-heading{
+    font-size:300%;
+}
 /*nav*/
 nav {
     position: absolute;
