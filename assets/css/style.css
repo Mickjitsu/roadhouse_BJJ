@@ -52,7 +52,7 @@ header a{
     padding-top: 3px;
 }
 
-main > a{
+.content-container a{
     text-decoration: none;
 
 }
