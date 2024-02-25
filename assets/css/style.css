@@ -485,6 +485,7 @@ footer{
     margin-top: 250px;
     text-align: center;
     width:80%;
+    padding:30px;
     margin-left:auto;
     margin-right:auto;
     border: 2px solid black;
@@ -561,6 +562,7 @@ footer{
 
 
 @media screen and (max-width: 789px) {
+    
     .review {
       flex: 0 1 calc(50% - 10px); /* specifying width of reviews per row for screens below 790px to allow for 2 images */
     }
@@ -581,6 +583,11 @@ footer{
   }
 
 @media screen and (min-width: 768px) {
+
+    #signed_up{
+        max-width: 50%;
+        
+    }
 
     /* Header */
     nav {
