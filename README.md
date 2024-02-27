@@ -117,15 +117,13 @@ Although there is one error, it is not possible to fix this it is regarding an e
 
 ### Manual Testing
 
-You need to perform, and document everything you did to manually test your site.
-At a minimum - you need to check every link on every page works as intended.
-So that is check every link in the nav bar (do this on every single page because its a link in a different file) and any other links that appear on your site.
-Test the responsiveness of the site - you can do this in the dev tools in responsive mode.
-You should also load the site once deployed on as many devices you have access to. What is different from one device to the next? why is it different?
+Here I have tested all the features on each and every page of my website. Please see the results below.
 
-Test the user stories that you created earlier in the readme - did you satisfy the goal, how?
+Our goals were met in this testing as all pages are directly accessible and easy to find for the user, with clear descriptions where to find certain information along with an acknowledgement when a contact form is sent.
 
-To write up the tests you can use a table,
+This was tested using a google pixel 6 pro, iphone 11 and responsive mode on a large PC monitor.
+
+Format of the table below is as follows:
 | Feature being tested| Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 
 
