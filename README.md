@@ -1,4 +1,4 @@
-
+f
 # RoadHouse BJJ
 
 
@@ -106,10 +106,8 @@ A clickable image thread where users can click on an image to open it as a carou
 
 ### Validation of Code
 Index w3 validator
-![index page](image-19.png)
-![about page](image-20.png)
-![gallery page](image-21.png)
-![contact page](image-22.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/89b093d0-c8ea-4bd8-a22c-c8ab36f488dc)
+
 
 ### Lighthouse
 Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps. Also the image that has caused a low best practices score was compressed multiple times:
