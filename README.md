@@ -6,6 +6,9 @@
 ## Introduction
 This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more infortmation regarding the gym itself.
 
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8a72ea97-abcf-4c92-95e8-4fb16ae507ca)
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [User Experience](#user-experience)
@@ -36,12 +39,16 @@ As the site owner, the goal is to make the website seamless for the user and inc
 ## Design
 ### Colour Scheme
 I used the website color-hex.com to find an appropriate colour scheme and decided on the shade and colour
-#BEA477
-![main shade](image-1.png)
-![Secondary shade](image-2.png)
-![Header, footer and font colour](image-3.png)
-Along with this I chose a secondary colour #CEBB9A for certain sections, along with inverting the text colour
+#BEA477. Along with this I chose a secondary colour #CEBB9A for certain sections, along with inverting the text colour
 #252525 for the header and footer.
+
+![Main Shade](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/751729ea-e5a3-4630-911e-6f621be89de2)
+
+![Secondary Shafe](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/a8ddb947-5348-464b-b909-71670ed2fa80)
+
+![Header, footer and text shafe](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/969cd577-d72a-4c4a-b088-0aced0692cc4)
+
+
 
 ### Typography
 I chose to stick with a sans-serif font type for the entirety of the webpage as it is very clear and easy to read for all users. Body font was 'Roboto', while headings were 'Bebas Neue' of the sans-serif family.
