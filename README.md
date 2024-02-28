@@ -1,4 +1,4 @@
-f
+
 # RoadHouse BJJ
 
 
@@ -107,6 +107,9 @@ A clickable image thread where users can click on an image to open it as a carou
 ### Validation of Code
 Index w3 validator
 ![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/89b093d0-c8ea-4bd8-a22c-c8ab36f488dc)
+CSS Validator
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/f27fbb73-d918-4c5a-a149-9cbeaddd7189)
+
 
 
 ### Lighthouse
