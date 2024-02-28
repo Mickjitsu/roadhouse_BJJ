@@ -134,6 +134,7 @@ Our goals were met in this testing as all pages are directly accessible and easy
 This was tested using a google pixel 6 pro, iphone 11 and responsive mode on a large PC monitor.
 
 Format of the table below is as follows:
+
 | Feature being tested| Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 
 
@@ -141,44 +142,48 @@ Format of the table below is as follows:
 | Header hyperlink index page| Refreshes current page | manually clicked | page refreshed | Result PASS|
 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
 | Header hyperlink about page | directs to index page | manually clicked| directed to index page | Result PASS |
 
 | Header hyperlink gallery page | Directs to Index page | manually clicked | Directed to index page | Result PASS |
 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
 | Header hyperlink contact page | directs to index page | manually clicked | directed to index page | result PASS |
 
 | Footer hyperlinks on index page| direct to social media sites | manually clicked all | All directed | Result PASS |
 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
 | Footer hyperlinks on about page| direct to social media sites  | manually clicked | All Directed | Results PASS |
 
 | Footer hyperlinks on Gallery page| direct to social media sites | manually clicked| All Directed  | Result PASS |
 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
 | Footer hyperlinks on contact page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
 
 | Dropdown toggle index page| menu drops down  | manually clicked | menu appears | Result PASS |
 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
 | Dropdown toggle about page | menu drops down | manually clicked  | menu appears  | Result PASS |
 
 
 | Dropdown toggle Gallery page| menu drops down | manually clicked | menu appears  | Result PASS |
 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Dropdown toggle contact page | menu drops down | manually clicked  | menu appears | Result PASS  |
 
+| Dropdown toggle contact page | menu drops down | manually clicked  | menu appears | Result PASS  |
 
 | Youtube video about page| Video plays but not automatically | opened about page and clicked play | video only plays when clicked | Result PASS |
 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
 | contact form submission required fields | Can't submit form unless all requried fields are checked| Tested every combination | Required fields prompted if not submitted correctly | result PASS |
 
 | contact form submission| redirected to thank you page | completed form and submitted | redireted to signedup.html | Result PASS |
 
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
 
 
 
