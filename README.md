@@ -44,7 +44,7 @@ I used the website color-hex.com to find an appropriate colour scheme and decide
 
 ![Main Shade](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/751729ea-e5a3-4630-911e-6f621be89de2)
 
-![Secondary Shafe](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/a8ddb947-5348-464b-b909-71670ed2fa80)
+![Secondary Shade](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/a8ddb947-5348-464b-b909-71670ed2fa80)
 
 ![Header, footer and text shafe](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/969cd577-d72a-4c4a-b088-0aced0692cc4)
 
@@ -56,42 +56,50 @@ I chose to stick with a sans-serif font type for the entirety of the webpage as 
 The entirety of my gallery page was found from pexels.com, however many other images were used primarily from google images. Although I understand in a real situation I would need to use stock or owned photography, as this was a project and not a public websit, I obtained my hero images and about page images from various sources on google images.
 ### Wireframes
 I was unable to install balsamiq wireframing tool due to restrictions on the computer I am using, so I opted for a free tool online wireframe.cc . Although it was more difficult to use and didn't allow me plan as effectively as I would have liked, I made some rough wireframes for each page.
-![Wireframe for index page (top half)](image-4.png)
-![wireframe for about page (top half)](image-5.png)
-![wireframe for contact page](image-6.png)
+![Wireframe for top of index page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/6e36fd93-1d8d-4f91-bb4d-2cd83efccd65)
+![Wireframe for about page top half](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/58aa844e-4572-459f-84b0-a89559975866)
+![Wireframe for contact page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/42f7bcdf-fd96-4ec3-b14a-5e97987786c1)
+
 ### Figma/Full color mockup if produced
 
 ## Features
 
 ### Responsive Navigation Bar toggle
-![Nav bar Large screens](image-7.png)
-![Nav bar for small screens](image-8.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/664ea214-f40d-497b-b52c-46746a7c490c)
+
 
 ### Responseive map for directions
-![Map on large screens](image-9.png)
-![Map on small screens](image-10.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/36796eba-2e82-47e4-af90-6c06a1bf7b78)
+
 
 ### Footer with working social mediahyperlinks
-![Footer icons](image-11.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/7fe9d09a-4135-4e38-a6e2-b59a0c1b259e)
+
 
 ### Heading on index page with hyperlink to contact page
-![Alt text](image-12.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/810e0dc0-a4ad-4111-ab1d-9a494bfca157)
+
 
 ### Working contact form which redirects to a thank you page
-![Contact form](image-13.png)
-![Thank you page](image-14.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/964308fe-efa3-4296-ade3-3f1ae1652b4c)
+
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8d945fff-9d72-4344-bc84-7099542501ff)
+
 
 ### Responsive flex box reviews which hide/appear depending on screen size
-![Small screen](image-15.png)
-![Medium Screen](image-16.png)
-![Large screen](image-17.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/97887eef-6f85-4a25-a498-b228c757b1dd)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/1d569ac2-9f4b-4265-ae8d-4a4e88bd61f4)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/c7b19665-fe1b-4240-901a-0da14d5cfde3)
+
+
 
 ### Youtube video
-![Video on about page](image-18.png)
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/70ef4f98-69fb-4edf-91fa-726fcc45dda8)
+
 ## Features to be Added
 I would like to add a feature that would send out an automatic email once a form has been completed letting the end user know that we have received their form submission and will get in touch with them personally while also including an information pack in the email. This could be done by using an API from a company like Twilio, Bird or Mailersend.
 
-A clickable image thread where users can click on an image to open it and scroll through the gallery images by clicking on a toggle, rather than all images being full size.
+A clickable image thread where users can click on an image to open it as a carousel, and scroll through the gallery images by clicking on a toggle, rather than all images being full size.
 
 
 ## Testing
@@ -104,23 +112,17 @@ Index w3 validator
 ![contact page](image-22.png)
 
 ### Lighthouse
-Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps:
-![index desktop](image-23.png)
-![index mobile](image-24.png)
-![Index mobile diagnostics info](image-25.png)
-![About us desktop](image-26.png)
-![About us mobile](image-27.png)
-![Gallery desktop](image-28.png)
-![Gallery Mobile](image-29.png)
-![Gallery mobile info](image-30.png)
-![Contact desktop](image-31.png)
-![Contact mobile](image-32.png)
+Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps. Also the image that has caused a low best practices score was compressed multiple times:
+![Lighthouse](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/3c754a53-79ce-4014-b139-bce648c4627a)
+
 
 Common issue seems to be with image size and type used for mobile versions of the website. In the future I will procure more modern images suited for web design rather than jpg or png.
 
 ### Wave Webaim - accessibility testing
 ![Wave evaluation](image-33.png)
 Although there is one error, it is not possible to fix this it is regarding an empty form label that is used for the dropdown nav bar option we were taught in the walkthrough project.
+![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/9d8c8d40-7cb9-490d-8fd4-cc0b4f9b3db4)
+
 
 ### Manual Testing
 
