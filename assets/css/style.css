@@ -479,8 +479,14 @@ footer{
     margin-bottom: 50px;
 }
 
-#contact-form > button{
-    font-size:160%;
+.join-button{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  
 }
 
 
