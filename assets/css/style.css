@@ -468,14 +468,15 @@ footer{
 
 #contact-form{
     border: 2px solid black;
-    width: 80%;
+    width: 60%;
+    max-width: 600px;
     margin-left:auto;
     margin-right:auto;
     padding: 30px;
     margin-top: 40px;
     font-size: 150%;
     background-color: rgba(206,187,154, 0.8);
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
 }
 
