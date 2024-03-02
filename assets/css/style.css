@@ -276,7 +276,7 @@ footer{
 
 /*about-page*/
 #hero-about{
-    background: url(../images/BJJ-Brown-Belt_600.jpeg) no-repeat center center/cover;
+    background: url(../images/bjj-brown-belt_600.jpeg) no-repeat center center/cover;
     max-height: 400px;
     width: 100%;
 }
@@ -760,7 +760,7 @@ on screen size*/
         }
         
         #hero-about{
-            background: url(../images/BJJ-Brown-Belt_1.jpg) no-repeat center center /cover;
+            background: url(../images/bjj-brown-belt_1.jpg) no-repeat center center /cover;
             max-height: 450px;
             
         }
