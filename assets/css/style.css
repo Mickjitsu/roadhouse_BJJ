@@ -505,6 +505,15 @@ footer{
 }
 /* MEDIA QUERIES*/ 
 
+/*Shrinken coach image photos for galaxy fold screen*/
+@media query and (max-width: 285px){
+    #coach-photo > img{
+        height:90px;
+        width:90px;
+       }
+}
+
+/*adjust coach image photo for average phone screen*/
 @media screen and (max-width: 380px){
     #coach-photo > img{
         max-width: 110px;
@@ -512,6 +521,7 @@ footer{
     }
 }
 
+/*adjustment for contact header on small screens*/
 @media screen and (max-width: 320px){
     #contact{
         margin-top: 200px;
@@ -520,7 +530,7 @@ footer{
     /*allows for this section to be visible due to header size increase*/
 }
 
-
+/*adjustments for video size and about page images on large phone size screens*/
 @media screen and (max-width: 576px){
     .video > iframe{
         max-width: 90%;
@@ -538,6 +548,8 @@ footer{
 
     }
 }
+
+/*adjustment of images for large phones to medium tablet size screens*/
 @media screen and (min-width:576px) and (max-width: 899px){
     #gym-photo > img{
         height:130%;
@@ -571,7 +583,8 @@ footer{
 }
 
 
-
+/*media queries for reviews section to appear differently depending
+on screen size*/
 @media screen and (max-width: 789px) {
     
     .review {
