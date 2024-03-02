@@ -65,6 +65,7 @@ I was unable to install balsamiq wireframing tool due to restrictions on the com
 ## Features
 
 ### Responsive Navigation Bar toggle
+This code was taken from the LoveRunning course to enable this feature using only CSS and HTML and is visible under the nav bar styles on styles.css page.
 ![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/664ea214-f40d-497b-b52c-46746a7c490c)
 
 
