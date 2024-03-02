@@ -490,7 +490,7 @@ footer{
 }
 
 
-/*Signed Up*/
+/*Signed Up page*/
 
 #signed_up{
     margin-top: 250px;
@@ -508,8 +508,8 @@ footer{
 /*Shrinken coach image photos for galaxy fold screen*/
 @media query and (max-width: 285px){
     #coach-photo > img{
-        height:90px;
-        width:90px;
+        max-height:90px;
+        max-width:90px;
        }
 }
 
