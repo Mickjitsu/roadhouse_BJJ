@@ -4,7 +4,7 @@
 
 
 ## Introduction
-This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more infortmation regarding the gym itself.
+This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more information regarding the gym itself. The webpage is fully responsive for devices from 300px to large monitors 1200px +.
 
 ![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8a72ea97-abcf-4c92-95e8-4fb16ae507ca)
 
@@ -24,6 +24,7 @@ This is a project I have created for my first assignment in HTML and CSS. The pr
 - [Testing](#testing)
   - [Validation of Code](#validation-of-code)
   - [Manual Testing](#manual-testing)
+  - [Bug resolutions](#bugs)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -121,7 +122,6 @@ Lighthouse results, it's worth noting that at time of testing my internet speed 
 Common issue seems to be with image size and type used for mobile versions of the website. In the future I will procure more modern images suited for web design rather than jpg or png.
 
 ### Wave Webaim - accessibility testing
-![Wave evaluation](image-33.png)
 Although there is one error, it is not possible to fix this it is regarding an empty form label that is used for the dropdown nav bar option we were taught in the walkthrough project.
 ![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/9d8c8d40-7cb9-490d-8fd4-cc0b4f9b3db4)
 
@@ -187,8 +187,17 @@ Format of the table below is as follows:
 
 
 
+## Bug resolutions
 
-You should have tests for every section of every page.. individually.
+When writing the html and CSS code for this website, some bugs were found and rectified along the way.
+
+A major bug was the stretching of the Hero image on the index.html page. Due to the size of the image being used, on large screens this image would become stretched and off centre.
+
+To fix this, I used a larger version of the same image (900x) and updated the CSS in a media query for screens of 900px and more to use this image, and update the positional values of the image. The CSS used to overcome this bug is shown below.
+![Media query to fix hero image bug](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/699f79fa-dc4e-4dbe-bd53-dd61315b01e4)
+
+Another bug that was found was on the contact form. The contact form page would submit regardless of whether any class choices or contact information was added or not. This was due to the HTML code for the form not containing a required field. This was amended upon finding the issue when conducting manual testing.
+
 
 ## Technologies Used
 
