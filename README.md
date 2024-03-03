@@ -226,4 +226,4 @@ The video came from the grappling academys youtube channel. The schedule was cre
 ## Acknowledgements
 I would like to thank my partner for encouraging me to continue on when I was struggling at the start of the course, my family for encouraging me to keep studying despite going through a bereavement, and my mentor Matt for helping me along the way with pre, mid point and final calls!
 
-Back to top link to return to the top of the readme.
+[Back to top](#introduction)
