@@ -541,6 +541,12 @@ footer{
     background-color: rgba(206,187,154, 0.8);
     
 }
+
+#not-found > a{
+    text-decoration: underline;
+    color:black;
+    font-size:1.1rem;
+}
 /* MEDIA QUERIES*/ 
 
 /*Shrinken coach image photos for galaxy fold screen*/
