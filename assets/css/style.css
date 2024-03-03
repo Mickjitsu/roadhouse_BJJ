@@ -15,6 +15,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
+    background-color: #BEA477;
 }
 
 h1,
@@ -112,7 +113,15 @@ nav {
     font-size: 2rem;
     color:#BEA477;
 }
-
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
 
 /*hero section*/
 .hero {
@@ -188,9 +197,6 @@ with the colour set to 0.8 for some transparency*/
     color: black;
 }
 
-body{
-    background-color: #BEA477;
-}
 .welcome{
     display:flex;
     flex-direction: column;
@@ -485,6 +491,30 @@ footer{
     background-color: rgba(206,187,154, 0.8);
     text-align: left;
     margin-bottom: 50px;
+}
+.form-input{
+    margin:15px;
+}
+.form-input input{
+    border-radius:4px;
+    border: 1px;
+    font-size: 1rem;
+}
+#sign-up-form > h2{
+    margin:15px;
+}
+#sign-up-form > h3{
+    margin:15px;
+}
+
+.button-dividers{
+    margin:15px;
+}
+
+.button-dividers input{
+    border-radius:4px;
+    border: 1px;
+    font-size: 1rem;
 }
 
 .join-button{
