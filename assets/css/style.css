@@ -407,6 +407,8 @@ footer{
     text-align:center;
     color:antiquewhite;
     font-size: 100%;
+    margin-top: 20px;
+    margin-bottom:10px;
   }
 
 .review > h3{
@@ -440,6 +442,7 @@ footer{
 #video-header, .video{
     align-self: center;
     /*aligns header and video into the center of the page*/
+    margin-bottom:30px;
 }
 
 #video-header{
