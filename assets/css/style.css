@@ -164,6 +164,11 @@ with the colour set to 0.8 for some transparency*/
 with the colour set to 0.8 for some transparency*/
     
 }
+#cover-text > a{
+    cursor: pointer;
+}
+/*cursor pointer added for index hyperlink*/
+
 #cover-header{
     color: #BEA477;
 }
