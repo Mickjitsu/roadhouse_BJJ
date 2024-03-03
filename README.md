@@ -4,7 +4,7 @@
 
 
 ## Introduction
-This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more infortmation regarding the gym itself.
+This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more information regarding the gym itself. The webpage is fully responsive for devices from 300px to large monitors 1200px +.
 
 ![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8a72ea97-abcf-4c92-95e8-4fb16ae507ca)
 
@@ -24,6 +24,7 @@ This is a project I have created for my first assignment in HTML and CSS. The pr
 - [Testing](#testing)
   - [Validation of Code](#validation-of-code)
   - [Manual Testing](#manual-testing)
+  - [Bug resolutions](#bugs)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -53,49 +54,57 @@ I used the website color-hex.com to find an appropriate colour scheme and decide
 ### Typography
 I chose to stick with a sans-serif font type for the entirety of the webpage as it is very clear and easy to read for all users. Body font was 'Roboto', while headings were 'Bebas Neue' of the sans-serif family.
 ### Imagery
-The entirety of my gallery page was found from pexels.com, however many other images were used primarily from google images. Although I understand in a real situation I would need to use stock or owned photography, as this was a project and not a public websit, I obtained my hero images and about page images from various sources on google images.
+The entirety of my gallery page was found from pexels.com along with the index hero image and the class photo page.owever many other images were used primarily from websites found on google. The coach images were from sherdog.com, a popular MMA site. The about hero image was from bjjfanactics.com and the gym photo from fittinsider.com.
+
+I understand in a real website I would need to have image rights for images used or use free stock sites like pexels or others to ensure I am not breaking any copyright laws.
+
 ### Wireframes
 I was unable to install balsamiq wireframing tool due to restrictions on the computer I am using, so I opted for a free tool online wireframe.cc . Although it was more difficult to use and didn't allow me plan as effectively as I would have liked, I made some rough wireframes for each page.
 ![Wireframe for top of index page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/6e36fd93-1d8d-4f91-bb4d-2cd83efccd65)
 ![Wireframe for about page top half](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/58aa844e-4572-459f-84b0-a89559975866)
 ![Wireframe for contact page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/42f7bcdf-fd96-4ec3-b14a-5e97987786c1)
 
-### Figma/Full color mockup if produced
 
 ## Features
 
 ### Responsive Navigation Bar toggle
 This code was taken from the LoveRunning course to enable this feature using only CSS and HTML and is visible under the nav bar styles on styles.css page.
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/664ea214-f40d-497b-b52c-46746a7c490c)
+![nav bar toggle](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/664ea214-f40d-497b-b52c-46746a7c490c)
 
 
 ### Responseive map for directions
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/36796eba-2e82-47e4-af90-6c06a1bf7b78)
+![embedded google maps directions](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/36796eba-2e82-47e4-af90-6c06a1bf7b78)
 
 
 ### Footer with working social mediahyperlinks
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/7fe9d09a-4135-4e38-a6e2-b59a0c1b259e)
+This code was also taken from the LoveRunning course for ease of use.
+![footer with social media icons](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/7fe9d09a-4135-4e38-a6e2-b59a0c1b259e)
 
 
 ### Heading on index page with hyperlink to contact page
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/810e0dc0-a4ad-4111-ab1d-9a494bfca157)
+![hyperlink to contact form](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/810e0dc0-a4ad-4111-ab1d-9a494bfca157)
 
 
 ### Working contact form which redirects to a thank you page
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/964308fe-efa3-4296-ade3-3f1ae1652b4c)
+Although this page doesn't work correctly using github pages due to server restrictions
+![contact form](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/964308fe-efa3-4296-ade3-3f1ae1652b4c)
 
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8d945fff-9d72-4344-bc84-7099542501ff)
+![Contact form redirect page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8d945fff-9d72-4344-bc84-7099542501ff)
 
 
 ### Responsive flex box reviews which hide/appear depending on screen size
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/97887eef-6f85-4a25-a498-b228c757b1dd)
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/1d569ac2-9f4b-4265-ae8d-4a4e88bd61f4)
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/c7b19665-fe1b-4240-901a-0da14d5cfde3)
+![Flex review 1](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/97887eef-6f85-4a25-a498-b228c757b1dd)
+![Flex review 1 and 2](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/1d569ac2-9f4b-4265-ae8d-4a4e88bd61f4)
+![Flex review 1, 2 and 3](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/c7b19665-fe1b-4240-901a-0da14d5cfde3)
 
 
 
 ### Youtube video
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/70ef4f98-69fb-4edf-91fa-726fcc45dda8)
+![screenshot of youtube video](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/70ef4f98-69fb-4edf-91fa-726fcc45dda8)
+
+### Working 404 page.
+![404 page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/f8d663c8-b9be-4d54-8dc3-1db0fa440177)
+
 
 ## Features to be Added
 I would like to add a feature that would send out an automatic email once a form has been completed letting the end user know that we have received their form submission and will get in touch with them personally while also including an information pack in the email. This could be done by using an API from a company like Twilio, Bird or Mailersend.
@@ -107,23 +116,22 @@ A clickable image thread where users can click on an image to open it as a carou
 
 ### Validation of Code
 Index w3 validator
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/89b093d0-c8ea-4bd8-a22c-c8ab36f488dc)
+![w3 validator pass for HTML](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/89b093d0-c8ea-4bd8-a22c-c8ab36f488dc)
 CSS Validator
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/f27fbb73-d918-4c5a-a149-9cbeaddd7189)
+![CSS validator passs](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/f27fbb73-d918-4c5a-a149-9cbeaddd7189)
 
 
 
 ### Lighthouse
 Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps. Also the image that has caused a low best practices score was compressed multiple times:
-![Lighthouse](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/3c754a53-79ce-4014-b139-bce648c4627a)
+![Lighthouse results for index page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/3c754a53-79ce-4014-b139-bce648c4627a)
 
 
 Common issue seems to be with image size and type used for mobile versions of the website. In the future I will procure more modern images suited for web design rather than jpg or png.
 
 ### Wave Webaim - accessibility testing
-![Wave evaluation](image-33.png)
 Although there is one error, it is not possible to fix this it is regarding an empty form label that is used for the dropdown nav bar option we were taught in the walkthrough project.
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/9d8c8d40-7cb9-490d-8fd4-cc0b4f9b3db4)
+![Accessibility testing review from Wave](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/9d8c8d40-7cb9-490d-8fd4-cc0b4f9b3db4)
 
 
 ### Manual Testing
@@ -187,8 +195,17 @@ Format of the table below is as follows:
 
 
 
+## Bug resolutions
 
-You should have tests for every section of every page.. individually.
+When writing the html and CSS code for this website, some bugs were found and rectified along the way.
+
+A major bug was the stretching of the Hero image on the index.html page. Due to the size of the image being used, on large screens this image would become stretched and off centre.
+
+To fix this, I used a larger version of the same image (900x) and updated the CSS in a media query for screens of 900px and more to use this image, and update the positional values of the image. The CSS used to overcome this bug is shown below.
+![Media query to fix hero image bug](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/699f79fa-dc4e-4dbe-bd53-dd61315b01e4)
+
+Another bug that was found was on the contact form. The contact form page would submit regardless of whether any class choices or contact information was added or not. This was due to the HTML code for the form not containing a required field. This was amended upon finding the issue when conducting manual testing.
+
 
 ## Technologies Used
 
@@ -217,4 +234,4 @@ The video came from the grappling academys youtube channel. The schedule was cre
 ## Acknowledgements
 I would like to thank my partner for encouraging me to continue on when I was struggling at the start of the course, my family for encouraging me to keep studying despite going through a bereavement, and my mentor Matt for helping me along the way with pre, mid point and final calls!
 
-Back to top link to return to the top of the readme.
+[Back to top](#introduction)
