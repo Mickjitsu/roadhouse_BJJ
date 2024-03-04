@@ -517,6 +517,10 @@ footer{
     font-size: 1rem;
 }
 
+#contact-button{
+    display:flex;
+    justify-content: center;
+}
 .join-button{
   width: 150px;
   height: 40px;
