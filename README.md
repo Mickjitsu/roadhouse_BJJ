@@ -1,4 +1,3 @@
-
 # RoadHouse BJJ
 
 
@@ -6,7 +5,7 @@
 ## Introduction
 This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more information regarding the gym itself. The webpage is fully responsive for devices from 300px to large monitors 1200px +.
 
-![image](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8a72ea97-abcf-4c92-95e8-4fb16ae507ca)
+![Responsive image](assets/documentation/responsive_image.png)
 
 
 ## Table of Contents
@@ -33,21 +32,29 @@ This is a project I have created for my first assignment in HTML and CSS. The pr
 ## User Experience
 ### User Stories
 - User Goals
-The user goals for this website are to be able to navigate clearly and effectively across the site and find the information they require whether it be information about the gym, the class shcedule, the gyms facilities or a page to get in touch and schedule a class.
+
+- Navigature clearly and effectively across the site
+- Find specific information they require
+- Read about the class schedule and equipment
+- Get in touch via our contact page.
+
+
 - Site Owner Goals
-As the site owner, the goal is to make the website seamless for the user and include all the important and relevant information available to them, while also ensuring the user can easily find the contact tab so they can reserve a class.
+
+- Ensure the website is seamless for the user
+- Ensure the user can find exactly what they need
+- Promote the gym and the sport in general
+- Allow for possible members to contact us
+- Keep all interested parties up to date with relevant information
+
 
 ## Design
 ### Colour Scheme
 I used the website color-hex.com to find an appropriate colour scheme and decided on the shade and colour
 #BEA477. Along with this I chose a secondary colour #CEBB9A for certain sections, along with inverting the text colour
-#252525 for the header and footer.
+#252525 for the header and footer. You can see a contrast grid of all colours used throughout the website, with a rating of AA or AAA for each colour palette used.
 
-![Main Shade](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/751729ea-e5a3-4630-911e-6f621be89de2)
-
-![Secondary Shade](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/a8ddb947-5348-464b-b909-71670ed2fa80)
-
-![Header, footer and text shafe](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/969cd577-d72a-4c4a-b088-0aced0692cc4)
+![contrast grid of colours](assets/documentation/contrast_grid_total.jpg)
 
 
 
@@ -60,50 +67,51 @@ I understand in a real website I would need to have image rights for images used
 
 ### Wireframes
 I was unable to install balsamiq wireframing tool due to restrictions on the computer I am using, so I opted for a free tool online wireframe.cc . Although it was more difficult to use and didn't allow me plan as effectively as I would have liked, I made some rough wireframes for each page.
-![Wireframe for top of index page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/6e36fd93-1d8d-4f91-bb4d-2cd83efccd65)
-![Wireframe for about page top half](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/58aa844e-4572-459f-84b0-a89559975866)
-![Wireframe for contact page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/42f7bcdf-fd96-4ec3-b14a-5e97987786c1)
+![Wireframe for top of index page](assets/documentation/wireframe_1.jpg)
+![Wireframe for about page top half](assets/documentation/wireframe_2.jpg)
+![Wireframe for contact page](assets/documentation/wireframe_3.jpg)
 
 
 ## Features
 
 ### Responsive Navigation Bar toggle
 This code was taken from the LoveRunning course to enable this feature using only CSS and HTML and is visible under the nav bar styles on styles.css page.
-![nav bar toggle](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/664ea214-f40d-497b-b52c-46746a7c490c)
+![nav bar toggle](assets/documentation/nav_bar.jpg)
 
 
 ### Responseive map for directions
-![embedded google maps directions](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/36796eba-2e82-47e4-af90-6c06a1bf7b78)
+![embedded google maps directions](assets/documentation/map.jpg)
 
 
 ### Footer with working social mediahyperlinks
 This code was also taken from the LoveRunning course for ease of use.
-![footer with social media icons](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/7fe9d09a-4135-4e38-a6e2-b59a0c1b259e)
+![footer with social media icons](assets/documentation/footer.jpg)
 
 
 ### Heading on index page with hyperlink to contact page
-![hyperlink to contact form](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/810e0dc0-a4ad-4111-ab1d-9a494bfca157)
+![hyperlink to contact form](assets/documentation/index_link.jpg)
 
 
 ### Working contact form which redirects to a thank you page
-Although this page doesn't work correctly using github pages due to server restrictions
-![contact form](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/964308fe-efa3-4296-ade3-3f1ae1652b4c)
 
-![Contact form redirect page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/8d945fff-9d72-4344-bc84-7099542501ff)
+![contact form](assets/documentation/contact_form_1.jpg)
+
+![Contact form redirect page](assets/documentation/contact_redirect.jpg)
 
 
 ### Responsive flex box reviews which hide/appear depending on screen size
-![Flex review 1](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/97887eef-6f85-4a25-a498-b228c757b1dd)
-![Flex review 1 and 2](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/1d569ac2-9f4b-4265-ae8d-4a4e88bd61f4)
-![Flex review 1, 2 and 3](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/c7b19665-fe1b-4240-901a-0da14d5cfde3)
+![Flex review 1](assets/documentation/flex_1.jpg)
+![Flex review 1 and 2](assets/documentation/flex_1_2.jpg)
+![Flex review 1, 2 and 3](assets/documentation/flex_1_2_3.jpg)
 
 
 
 ### Youtube video
-![screenshot of youtube video](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/70ef4f98-69fb-4edf-91fa-726fcc45dda8)
+The embed code was taken from youtube, with adjustments made to styling for it to fit correctly on page.
+![screenshot of youtube video](assets/documentation/youtube_about.jpg)
 
 ### Working 404 page.
-![404 page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/f8d663c8-b9be-4d54-8dc3-1db0fa440177)
+![404 page](assets/documentation/404_issue.jpg)
 
 
 ## Features to be Added
@@ -116,22 +124,22 @@ A clickable image thread where users can click on an image to open it as a carou
 
 ### Validation of Code
 Index w3 validator
-![w3 validator pass for HTML](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/89b093d0-c8ea-4bd8-a22c-c8ab36f488dc)
+![w3 validator pass for HTML](assets/documentation/index_w3.jpg)
 CSS Validator
-![CSS validator passs](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/f27fbb73-d918-4c5a-a149-9cbeaddd7189)
+![CSS validator passs](assets/documentation/index_css.jpg)
 
 
 
 ### Lighthouse
-Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps. Also the image that has caused a low best practices score was compressed multiple times:
-![Lighthouse results for index page](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/3c754a53-79ce-4014-b139-bce648c4627a)
+Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps. Best practices score is due to cookies from the embedded google maps location at the bottom of the page.
+![Lighthouse results for index page](assets/documentation/lighthouse.jpg)
 
 
 Common issue seems to be with image size and type used for mobile versions of the website. In the future I will procure more modern images suited for web design rather than jpg or png.
 
 ### Wave Webaim - accessibility testing
-Although there is one error, it is not possible to fix this it is regarding an empty form label that is used for the dropdown nav bar option we were taught in the walkthrough project.
-![Accessibility testing review from Wave](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/9d8c8d40-7cb9-490d-8fd4-cc0b4f9b3db4)
+Initially there was one error due to the label tag used for the nav toggle. More information on bug section.
+![Accessibility testing review from Wave](assets/documentation/wave_response.jpg)
 
 
 ### Manual Testing
@@ -145,52 +153,28 @@ This was tested using a google pixel 6 pro, iphone 11 and responsive mode on a l
 Format of the table below is as follows:
 
 | Feature being tested| Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-
-
-
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Header hyperlink index page| Refreshes current page | manually clicked | page refreshed | Result PASS|
-
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-
 | Header hyperlink about page | directs to index page | manually clicked| directed to index page | Result PASS |
-
 | Header hyperlink gallery page | Directs to Index page | manually clicked | Directed to index page | Result PASS |
-
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-
 | Header hyperlink contact page | directs to index page | manually clicked | directed to index page | result PASS |
-
 | Footer hyperlinks on index page| direct to social media sites | manually clicked all | All directed | Result PASS |
-
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-
 | Footer hyperlinks on about page| direct to social media sites  | manually clicked | All Directed | Results PASS |
-
 | Footer hyperlinks on Gallery page| direct to social media sites | manually clicked| All Directed  | Result PASS |
-
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-
 | Footer hyperlinks on contact page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
-
 | Dropdown toggle index page| menu drops down  | manually clicked | menu appears | Result PASS |
-
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-
 | Dropdown toggle about page | menu drops down | manually clicked  | menu appears  | Result PASS |
-
-
 | Dropdown toggle Gallery page| menu drops down | manually clicked | menu appears  | Result PASS |
-
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-
 | Dropdown toggle contact page | menu drops down | manually clicked  | menu appears | Result PASS  |
-
 | Youtube video about page| Video plays but not automatically | opened about page and clicked play | video only plays when clicked | Result PASS |
-
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-
 | contact form submission required fields | Can't submit form unless all requried fields are checked| Tested every combination | Required fields prompted if not submitted correctly | result PASS |
-
 | contact form submission| redirected to thank you page | completed form and submitted | redireted to signedup.html | Result PASS |
 
 
@@ -202,9 +186,15 @@ When writing the html and CSS code for this website, some bugs were found and re
 A major bug was the stretching of the Hero image on the index.html page. Due to the size of the image being used, on large screens this image would become stretched and off centre.
 
 To fix this, I used a larger version of the same image (900x) and updated the CSS in a media query for screens of 900px and more to use this image, and update the positional values of the image. The CSS used to overcome this bug is shown below.
-![Media query to fix hero image bug](https://github.com/Mickjitsu/roadhouse_BJJ/assets/81781555/699f79fa-dc4e-4dbe-bd53-dd61315b01e4)
+![Media query to fix hero image bug](assets/documentation/bug_1.jpg)
 
 Another bug that was found was on the contact form. The contact form page would submit regardless of whether any class choices or contact information was added or not. This was due to the HTML code for the form not containing a required field. This was amended upon finding the issue when conducting manual testing.
+
+When validating the page using wave, a bug was found due to the label tag being empty in the form that was used to create the navigation toggle as it was done purely using html and css. This was fixed due to help from the documentation below.
+https://css-tricks.com/inclusively-hidden/
+![CSS code used for this fix](assets/documentation/bug_2.jpg)
+
+The final bug noticed when creating this website was that the schedule listed in the about page shows as pixelated when testing the responsiveness for smaller screens. This has been tested using 3 different mobile devices however and the image does not appear pixelated, and can be viewed/zoomed in as most images of this type would be on a mobile device.
 
 
 ## Technologies Used
@@ -215,12 +205,27 @@ This project was done solely using HTML and CSS, along with vs code and gitpod.
 
 You can access the website directly through the following link: [ROADHOUSE BJJ](https://mickjitsu.github.io/roadhouse_BJJ/)
 
-Alternatively, you can follow these steps to deploy the website locally:
-1. **Clone the Repository:** : https://github.com/Mickjitsu/roadhouse_BJJ.git
+**Cloning the repository**
 
-2. **Navigate to the Project Directory:** : cd /roadhouse_BJJ
+To clone the repository, you'll need Git installed on your computer. I
 
-3. **Open the Website:** : Open the main index.html page and navigate across the site
+Open your terminal or command prompt.
+Navigate to the directory where you want to clone the repository.
+Run the clone command:
+
+**Forking the repository**
+To Fork this repository and have a version of this on your personal account to make changes, customisation and amendments, please do the following.
+
+Go to the GitHub page of the repository : https://github.com/Mickjitsu/roadhouse_BJJ
+Click on the "Fork" button, usually found at the top-right corner of the page.
+
+After forking, you will have a copy of the repository in your GitHub account. You can then clone your forked version to your local machine by following the "Cloning the Repository" steps, using the URL of your fork.
+
+To view the repository on the local machine:
+
+1. Navigate to the Project Directory: : cd /roadhouse_BJJ
+
+2. Open the Website: Open the main index.html page in a browser or the folder in a code editory
 
 
 
