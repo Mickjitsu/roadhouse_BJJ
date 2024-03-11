@@ -67,6 +67,8 @@ I understand in a real website I would need to have image rights for images used
 
 ### Wireframes
 I was unable to install balsamiq wireframing tool due to restrictions on the computer I am using, so I opted for a free tool online wireframe.cc . Although it was more difficult to use and didn't allow me plan as effectively as I would have liked, I made some rough wireframes for each page.
+
+
 ![Wireframe for top of index page](assets/documentation/wireframe_1.jpg)
 ![Wireframe for about page top half](assets/documentation/wireframe_2.jpg)
 ![Wireframe for contact page](assets/documentation/wireframe_3.jpg)
@@ -76,6 +78,7 @@ I was unable to install balsamiq wireframing tool due to restrictions on the com
 
 ### Responsive Navigation Bar toggle
 This code was taken from the LoveRunning course to enable this feature using only CSS and HTML and is visible under the nav bar styles on styles.css page.
+
 ![nav bar toggle](assets/documentation/nav_bar.jpg)
 
 
@@ -85,10 +88,12 @@ This code was taken from the LoveRunning course to enable this feature using onl
 
 ### Footer with working social mediahyperlinks
 This code was also taken from the LoveRunning course for ease of use.
+
 ![footer with social media icons](assets/documentation/footer.jpg)
 
 
 ### Heading on index page with hyperlink to contact page
+
 ![hyperlink to contact form](assets/documentation/index_link.jpg)
 
 
@@ -124,14 +129,18 @@ A clickable image thread where users can click on an image to open it as a carou
 
 ### Validation of Code
 Index w3 validator
+
 ![w3 validator pass for HTML](assets/documentation/index_w3.jpg)
+
 CSS Validator
+
 ![CSS validator passs](assets/documentation/index_css.jpg)
 
 
 
 ### Lighthouse
 Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps. Best practices score is due to cookies from the embedded google maps location at the bottom of the page.
+
 ![Lighthouse results for index page](assets/documentation/lighthouse.jpg)
 
 
@@ -186,12 +195,16 @@ When writing the html and CSS code for this website, some bugs were found and re
 A major bug was the stretching of the Hero image on the index.html page. Due to the size of the image being used, on large screens this image would become stretched and off centre.
 
 To fix this, I used a larger version of the same image (900x) and updated the CSS in a media query for screens of 900px and more to use this image, and update the positional values of the image. The CSS used to overcome this bug is shown below.
+
+
 ![Media query to fix hero image bug](assets/documentation/bug_1.jpg)
 
 Another bug that was found was on the contact form. The contact form page would submit regardless of whether any class choices or contact information was added or not. This was due to the HTML code for the form not containing a required field. This was amended upon finding the issue when conducting manual testing.
 
 When validating the page using wave, a bug was found due to the label tag being empty in the form that was used to create the navigation toggle as it was done purely using html and css. This was fixed due to help from the documentation below.
 https://css-tricks.com/inclusively-hidden/
+
+
 ![CSS code used for this fix](assets/documentation/bug_2.jpg)
 
 The final bug noticed when creating this website was that the schedule listed in the about page shows as pixelated when testing the responsiveness for smaller screens. This has been tested using 3 different mobile devices however and the image does not appear pixelated, and can be viewed/zoomed in as most images of this type would be on a mobile device.
