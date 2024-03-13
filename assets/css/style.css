@@ -85,7 +85,7 @@ main{
 }
 
 #index-heading{
-    font-size:300%;
+    font-size:250%;
 }
 /*nav*/
 nav {
@@ -567,6 +567,11 @@ footer{
         max-width: 110px;
         max-height: 110px;
     }
+    #index-heading{
+        font-size:230%;
+    }
+    #signed_up{
+        margin-top: 200;
 }
 
 /*adjustment for contact header on small screens*/
