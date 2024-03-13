@@ -573,7 +573,7 @@ footer{
     #signed_up{
         margin-top: 200;
 }
-
+}
 /*adjustment for contact header on small screens*/
 @media screen and (max-width: 320px){
     #contact{
