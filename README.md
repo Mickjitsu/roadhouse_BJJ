@@ -3,7 +3,10 @@
 
 
 ## Introduction
-This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more information regarding the gym itself. The webpage is fully responsive for devices from 300px to large monitors 1200px +.
+This is a project I have created for my first assignment in HTML and CSS. The project is for a Brazilian JiuJitsu club called Roadhhouse BJJ. The website is to allow interested parties, current and potential members to find  relevant information about the gym, where it's located and when the classes are along with more information regarding the gym itself. The webpage is fully responsive for devices from 300px to large monitors 1200px+.
+
+You can access the page live via github pages on the url below.
+https://mickjitsu.github.io/roadhouse_BJJ/
 
 ![Responsive image](assets/documentation/responsive_image.png)
 
@@ -130,7 +133,7 @@ A clickable image thread where users can click on an image to open it as a carou
 ### Validation of Code
 Index w3 validator
 
-![w3 validator pass for HTML](assets/documentation/index_w3.jpg)
+![w3 validator pass for HTML](assets/documentation/index_w3_1.jpg)
 
 CSS Validator
 
