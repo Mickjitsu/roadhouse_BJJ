@@ -146,6 +146,8 @@ Contact page w3 validator
 
 Signed page w3 validator
 ![w3 validator pass for signed HTML](assets/documentation/signed_up_w3.jpg)
+404 page w3 validator
+![w3 validator pass for signed HTML](assets/documentation/404_w3.jpg)
 
 
 CSS Validator
