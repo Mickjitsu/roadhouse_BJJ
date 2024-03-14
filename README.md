@@ -34,7 +34,7 @@ https://mickjitsu.github.io/roadhouse_BJJ/
 
 ## User Experience
 ### User Stories
-- User Goals
+-User Goals
 
 - Navigature clearly and effectively across the site
 - Find specific information they require
@@ -42,7 +42,8 @@ https://mickjitsu.github.io/roadhouse_BJJ/
 - Get in touch via our contact page.
 
 
-- Site Owner Goals
+
+Site Owner Goals
 
 - Ensure the website is seamless for the user
 - Ensure the user can find exactly what they need
