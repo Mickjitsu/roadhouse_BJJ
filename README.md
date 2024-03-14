@@ -136,16 +136,16 @@ Index w3 validator
 ![w3 validator pass for index HTML](assets/documentation/index_w3_1.jpg)
 
 About page w3 validator
-[w3 validator pass for about HTML](assets/documentation/about_w3.jpg)
+![w3 validator pass for about HTML](assets/documentation/about_w3.jpg)
 
 Gallery page w3 validator
-[w3 validator pass for gallery HTML](assets/documentation/gallery_w3.jpg)
+![w3 validator pass for gallery HTML](assets/documentation/gallery_w3.jpg)
 
 Contact page w3 validator
-[w3 validator pass for contact HTML](assets/documentation/contact_w3.jpg)
+![w3 validator pass for contact HTML](assets/documentation/contact_w3.jpg)
 
 Signed page w3 validator
-[w3 validator pass for signed HTML](assets/documentation/signed_up_w3.jpg)
+![w3 validator pass for signed HTML](assets/documentation/signed_up_w3.jpg)
 
 
 CSS Validator
