@@ -133,7 +133,20 @@ A clickable image thread where users can click on an image to open it as a carou
 ### Validation of Code
 Index w3 validator
 
-![w3 validator pass for HTML](assets/documentation/index_w3_1.jpg)
+![w3 validator pass for index HTML](assets/documentation/index_w3_1.jpg)
+
+About page w3 validator
+[w3 validator pass for about HTML](assets/documentation/about_w3.jpg)
+
+Gallery page w3 validator
+[w3 validator pass for gallery HTML](assets/documentation/gallery_w3.jpg)
+
+Contact page w3 validator
+[w3 validator pass for contact HTML](assets/documentation/contact_w3.jpg)
+
+Signed page w3 validator
+[w3 validator pass for signed HTML](assets/documentation/signed_up_w3.jpg)
+
 
 CSS Validator
 
@@ -144,7 +157,7 @@ CSS Validator
 ### Lighthouse
 Lighthouse results, it's worth noting that at time of testing my internet speed was not great, with a download speed of roughly 7mbps. Best practices score is due to cookies from the embedded google maps location at the bottom of the page.
 
-![Lighthouse results for index page](assets/documentation/lighthouse.jpg)
+![Lighthouse results for index page](assets/documentation/lighthouse_test.jpg)
 
 
 Common issue seems to be with image size and type used for mobile versions of the website. In the future I will procure more modern images suited for web design rather than jpg or png.
@@ -167,25 +180,38 @@ Format of the table below is as follows:
 | Feature being tested| Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Header hyperlink index page| Refreshes current page | manually clicked | page refreshed | Result PASS|
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Header hyperlink about page | directs to index page | manually clicked| directed to index page | Result PASS |
 | Header hyperlink gallery page | Directs to Index page | manually clicked | Directed to index page | Result PASS |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Header hyperlink contact page | directs to index page | manually clicked | directed to index page | result PASS |
-| Footer hyperlinks on index page| direct to social media sites | manually clicked all | All directed | Result PASS |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Footer hyperlinks on about page| direct to social media sites  | manually clicked | All Directed | Results PASS |
-| Footer hyperlinks on Gallery page| direct to social media sites | manually clicked| All Directed  | Result PASS |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Footer hyperlinks on contact page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
-| Dropdown toggle index page| menu drops down  | manually clicked | menu appears | Result PASS |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Dropdown toggle about page | menu drops down | manually clicked  | menu appears  | Result PASS |
-| Dropdown toggle Gallery page| menu drops down | manually clicked | menu appears  | Result PASS |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Dropdown toggle contact page | menu drops down | manually clicked  | menu appears | Result PASS  |
+| Facebook hyperlink on index page| direct to social media sites | manually clicked all | All directed | Result PASS |
+| Youtube hyperlink on index page| direct to social media sites | manually clicked all | All directed | Result PASS |
+| Instagram hyperlink on index page| direct to social media sites | manually clicked all | All directed | Result PASS |
+| Twitter hyperlink on index page| direct to social media sites | manually clicked all | All directed | Result PASS |
+| Facebook hyperlink on about page| direct to social media sites  | manually clicked | All Directed | Results PASS |
+| Youtube hyperlink on about page| direct to social media sites  | manually clicked | All Directed | Results PASS |
+| Instagram hyperlink on about page| direct to social media sites  | manually clicked | All Directed | Results PASS |
+| Twitter hyperlink on about page| direct to social media sites  | manually clicked | All Directed | Results PASS |
+| Facebook hyperlink on Gallery page| direct to social media sites | manually clicked| All Directed  | Result PASS |
+| Youtube hyperlink on Gallery page| direct to social media sites | manually clicked| All Directed  | Result PASS |
+| Instagram hyperlink on Gallery page| direct to social media sites | manually clicked| All Directed  | Result PASS |
+| Twitter hyperlink on Gallery page| direct to social media sites | manually clicked| All Directed  | Result PASS |
+| Facebook hyperlink on contact page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Youtube hyperlink on contact page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Instagram hyperlink on contact page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Twitter hyperlink on contact page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Facebook hyperlink on signed-up page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Youtube hyperlink on signed-up page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Instagram hyperlink on signed-up page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Twitter hyperlink on signed-up page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Facebook hyperlink on 404 page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Youtube hyperlink on 404 page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Instagram hyperlink on 404 page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Twitter hyperlink on 404 page| direct to social media sites  | manually clicked | All Directed | Reult PASS |
+| Dropdown toggle index page| menu drops down and hyperlinks work | manually clicked | menu appears | Result PASS |
+| Dropdown toggle about page | menu drops down and hyperlinks work | manually clicked  | menu appears  | Result PASS |
+| Dropdown toggle Gallery page| menu drops down and hyperlinks work| manually clicked | menu appears  | Result PASS |
+| Dropdown toggle contact page | menu drops down and hyperlinks work| manually clicked  | menu appears | Result PASS  |
 | Youtube video about page| Video plays but not automatically | opened about page and clicked play | video only plays when clicked | Result PASS |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | contact form submission required fields | Can't submit form unless all requried fields are checked| Tested every combination | Required fields prompted if not submitted correctly | result PASS |
 | contact form submission| redirected to thank you page | completed form and submitted | redireted to signedup.html | Result PASS |
 
@@ -217,9 +243,6 @@ The final bug noticed when creating this website was that the schedule listed in
 
 This project was done solely using HTML and CSS, along with vs code and gitpod.
 
-## Deployment
-
-You can access the website directly through the following link: [ROADHOUSE BJJ](https://mickjitsu.github.io/roadhouse_BJJ/)
 
 **Cloning the repository**
 
@@ -230,6 +253,7 @@ Navigate to the directory where you want to clone the repository.
 Run the clone command:
 
 **Forking the repository**
+
 To Fork this repository and have a version of this on your personal account to make changes, customisation and amendments, please do the following.
 
 Go to the GitHub page of the repository : https://github.com/Mickjitsu/roadhouse_BJJ
@@ -244,6 +268,14 @@ To view the repository on the local machine:
 2. Open the Website: Open the main index.html page in a browser or the folder in a code editory
 
 
+## Deployment
+
+**Deploying on Github Pages**
+Firstly clone or fork the repository following the steps above. Once that is done, you will need to set up GitHub Pages. To do this:
+ In your repository, navigate to the "Settings" tab.
+   - Click on the "Pages" section on the left sidebar.
+   - Under the "Source" section, select the branch you want to deploy from (usually `main` or `master`) and click "Save".
+   - GitHub will provide you with a link to your live site.
 
 
 ## Credits
