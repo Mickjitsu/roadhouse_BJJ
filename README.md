@@ -34,7 +34,7 @@ https://mickjitsu.github.io/roadhouse_BJJ/
 
 ## User Experience
 ### User Stories
--User Goals
+User Goals
 
 - Navigature clearly and effectively across the site
 - Find specific information they require
